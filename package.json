@@ -1,0 +1,28 @@
+{
+	"name": "waterfall-test",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "rsbuild build",
+		"dev": "rsbuild dev",
+		"preview": "rsbuild preview"
+	},
+	"dependencies": {
+		"@unocss/reset": "66.1.0-beta.10",
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0",
+		"zustand": "^5.0.3"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@rsbuild/core": "^1.1.8",
+		"@rsbuild/plugin-react": "^1.0.7",
+		"@types/google.maps": "^3.58.1",
+		"@types/react": "^18.0.0",
+		"@types/react-dom": "^18.0.0",
+		"@unocss/webpack": "^65.4.3",
+		"typescript": "^5.7.2",
+		"unocss": "^65.4.3"
+	}
+}
